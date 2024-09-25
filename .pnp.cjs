@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:22.6.1"],\
-            ["pubnub", "npm:8.2.7"],\
+            ["pubnub", "patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::version=8.2.7&hash=0e5d6e&locator=pubnub-test%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=1f5320"]\
           ],\
           "linkType": "SOFT"\
@@ -433,10 +433,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.7.0", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-292ffdf2e5/0/cache/node-fetch-npm-2.7.0-587d57004e-d76d2f5edb.zip/node_modules/node-fetch/",\
+        ["virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.7.0", {\
+          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-59b25bebef/0/cache/node-fetch-npm-2.7.0-587d57004e-d76d2f5edb.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
-            ["node-fetch", "virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.7.0"],\
+            ["node-fetch", "virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.7.0"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
@@ -503,19 +503,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["pubnub", [\
-        ["npm:8.2.7", {\
-          "packageLocation": "./.yarn/cache/pubnub-npm-8.2.7-a9afefb544-e2526130f4.zip/node_modules/pubnub/",\
+        ["patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::version=8.2.7&hash=0e5d6e&locator=pubnub-test%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/pubnub-patch-85401d583b-1399b742e2.zip/node_modules/pubnub/",\
           "packageDependencies": [\
-            ["pubnub", "npm:8.2.7"],\
+            ["pubnub", "patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::version=8.2.7&hash=0e5d6e&locator=pubnub-test%40workspace%3A."],\
             ["agentkeepalive", "npm:3.5.3"],\
             ["buffer", "npm:6.0.3"],\
             ["cbor-js", "npm:0.1.0"],\
             ["cbor-sync", "npm:1.0.4"],\
             ["form-data", "npm:4.0.0"],\
             ["lil-uuid", "npm:0.1.1"],\
-            ["node-fetch", "virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.7.0"],\
+            ["node-fetch", "virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.7.0"],\
             ["proxy-agent", "npm:6.4.0"],\
-            ["react-native-url-polyfill", "virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.0.0"],\
+            ["react-native-url-polyfill", "virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.0.0"],\
             ["text-encoding", "npm:0.7.0"]\
           ],\
           "linkType": "HARD"\
@@ -527,7 +527,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["pubnub-test", "workspace:."],\
             ["@types/node", "npm:22.6.1"],\
-            ["pubnub", "npm:8.2.7"],\
+            ["pubnub", "patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::version=8.2.7&hash=0e5d6e&locator=pubnub-test%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=1f5320"]\
           ],\
           "linkType": "SOFT"\
@@ -550,10 +550,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-native-url-polyfill-virtual-c18fbf24d3/0/cache/react-native-url-polyfill-npm-2.0.0-f95a3da722-1a2e1030a6.zip/node_modules/react-native-url-polyfill/",\
+        ["virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-native-url-polyfill-virtual-760f384cae/0/cache/react-native-url-polyfill-npm-2.0.0-f95a3da722-1a2e1030a6.zip/node_modules/react-native-url-polyfill/",\
           "packageDependencies": [\
-            ["react-native-url-polyfill", "virtual:a9afefb544efc16e4506cb418ed451c251a6f8b983b8ffb33e81d95815dc1d262431ac743d60310571fbf50e6946cb0b18aa1d97b1d5bedc303c8cc9c579f44b#npm:2.0.0"],\
+            ["react-native-url-polyfill", "virtual:85401d583b3a68e7d2a9bcebe3d7e4486e81d81f83dba1c1aa5f2943393667d62be1fd4fd864c2b6589c2277690b0846e1e5c9d70de58710fc0c216acebc8db2#npm:2.0.0"],\
             ["@types/react-native", null],\
             ["react-native", null],\
             ["whatwg-url-without-unicode", "npm:8.0.0-3"]\

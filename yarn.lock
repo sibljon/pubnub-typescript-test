@@ -415,7 +415,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"pubnub@npm:^8.2.7":
+"pubnub@npm:8.2.7":
   version: 8.2.7
   resolution: "pubnub@npm:8.2.7"
   dependencies:
@@ -430,6 +430,24 @@ __metadata:
     react-native-url-polyfill: ^2.0.0
     text-encoding: ^0.7.0
   checksum: e2526130f42cda468956ee9df283f2c4bf8e448dac7074c80025496cedc94dfa21f1d512b8c6ff5943c9aa1930ba4c6dccc269dbc69d150bf92cdc539e0f15dc
+  languageName: node
+  linkType: hard
+
+"pubnub@patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::locator=pubnub-test%40workspace%3A.":
+  version: 8.2.7
+  resolution: "pubnub@patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch::version=8.2.7&hash=0e5d6e&locator=pubnub-test%40workspace%3A."
+  dependencies:
+    agentkeepalive: ^3.5.2
+    buffer: ^6.0.3
+    cbor-js: ^0.1.0
+    cbor-sync: ^1.0.4
+    form-data: ^4.0.0
+    lil-uuid: ^0.1.1
+    node-fetch: ^2.7.0
+    proxy-agent: ^6.3.0
+    react-native-url-polyfill: ^2.0.0
+    text-encoding: ^0.7.0
+  checksum: 1399b742e24e4e18dcfc8fbbc218e53dda75c6ec24ddc4546647714208db0fdfa1326b79eaec4fe985d30ea89ed3c29b2238dcc0a32e3373c6d4989e2412f987
   languageName: node
   linkType: hard
 

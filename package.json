@@ -16,5 +16,8 @@
   "devDependencies": {
     "@types/node": "^22.6.1",
     "typescript": "^5.6.2"
+  },
+  "resolutions": {
+    "pubnub@^8.2.7": "patch:pubnub@npm%3A8.2.7#./.yarn/patches/pubnub-npm-8.2.7-a9afefb544.patch"
   }
 }

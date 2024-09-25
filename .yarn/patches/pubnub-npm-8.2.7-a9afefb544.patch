@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 15c83ea452ba10acc959369c79289d9e01867a7c..00abe4438129f4aab257f287d8644e215f06b7d9 100644
+--- a/package.json
++++ b/package.json
+@@ -32,6 +32,7 @@
+     "contract:test-access-beta": "cucumber-js --require dist/cucumber dist/contract/contract/features --tags '@featureSet=access and not @na=js and @beta'"
+   },
+   "main": "./lib/node/index.js",
++  "types": "./lib/types/node/index.d.ts",
+   "react-native": "./lib/react_native/index.js",
+   "metro": "./lib/react_native/index.js",
+   "nativescript": "./lib/nativescript/index.js",
